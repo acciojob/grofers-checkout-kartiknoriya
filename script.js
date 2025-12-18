@@ -5,7 +5,7 @@ document.body.appendChild(getSumBtn);
 const getSum = () => {
 
   // Select all price cells
-  const prices = document.querySelectorAll('.price');
+  const prices = document.querySelectorAll('.prices');
   let total = 0;
 
   prices.forEach((p) => {
@@ -14,7 +14,7 @@ const getSum = () => {
 
   const table = document.querySelector('table');
 
-  // Remove existing total row if already added
+  
   const existingRow = document.getElementById('ans');
   if (existingRow) {
     existingRow.remove();
