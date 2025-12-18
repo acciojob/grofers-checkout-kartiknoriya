@@ -4,7 +4,7 @@ document.body.appendChild(getSumBtn);
 
 const getSum = () => {
 //Add your code here
-	   const prices = document.querySelectorAll('.prices')
+	   const prices = document.querySelectorAll('.price')
        let total = 0;
 	   prices.forEach((p) =>{
           total+= parseFloat(p.textContent) 
